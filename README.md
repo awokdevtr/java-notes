@@ -6,4 +6,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
-(otomatik olarak güncellenmez — bir konu klasörünün içindeki README.md'ye bakın)
+- [try-with-resources](try-with-resources/README.md) — kaynakların otomatik kapatılması ve bastırılmış istisnalar
