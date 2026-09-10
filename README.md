@@ -10,3 +10,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [record-classes](record-classes/README.md) — değişmez veri taşıyıcıları ve compact constructor
 - [sealed-classes](sealed-classes/README.md) — kısıtlı hiyerarşiler ve exhaustive switch
 - [hashmap-internals](hashmap-internals/README.md) — bucket yapısı, çarpışma çözümü ve resize mekanizması
+- [comparable-vs-comparator](comparable-vs-comparator/README.md) — doğal sıra ile dışsal sıralama stratejisi arasındaki fark
