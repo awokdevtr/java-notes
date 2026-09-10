@@ -9,3 +9,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [try-with-resources](try-with-resources/README.md) — kaynakların otomatik kapatılması ve bastırılmış istisnalar
 - [record-classes](record-classes/README.md) — değişmez veri taşıyıcıları ve compact constructor
 - [sealed-classes](sealed-classes/README.md) — kısıtlı hiyerarşiler ve exhaustive switch
+- [hashmap-internals](hashmap-internals/README.md) — bucket yapısı, çarpışma çözümü ve resize mekanizması
