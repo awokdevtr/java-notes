@@ -12,3 +12,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [hashmap-internals](hashmap-internals/README.md) — bucket yapısı, çarpışma çözümü ve resize mekanizması
 - [comparable-vs-comparator](comparable-vs-comparator/README.md) — doğal sıra ile dışsal sıralama stratejisi arasındaki fark
 - [optional-usage](optional-usage/README.md) — null kontrolünü tip sistemine taşıma ve zincirleme dönüşümler
+- [string-pool-intern](string-pool-intern/README.md) — string literal paylaşımı ve intern() ile havuza katılma
