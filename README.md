@@ -14,3 +14,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [optional-usage](optional-usage/README.md) — null kontrolünü tip sistemine taşıma ve zincirleme dönüşümler
 - [string-pool-intern](string-pool-intern/README.md) — string literal paylaşımı ve intern() ile havuza katılma
 - [text-blocks](text-blocks/README.md) — çok satırlı string literalleri ve otomatik girinti temizliği
+- [concurrent-modification-exception](concurrent-modification-exception/README.md) — fail-fast iterator davranışı ve güvenli eleman kaldırma yöntemleri
