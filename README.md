@@ -16,3 +16,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [text-blocks](text-blocks/README.md) — çok satırlı string literalleri ve otomatik girinti temizliği
 - [concurrent-modification-exception](concurrent-modification-exception/README.md) — fail-fast iterator davranışı ve güvenli eleman kaldırma yöntemleri
 - [arraylist-vs-linkedlist](arraylist-vs-linkedlist/README.md) — iç veri yapısı farkı ve erişim/ekleme maliyetlerinin karşılaştırması
+- [checked-vs-unchecked-exception](checked-vs-unchecked-exception/README.md) — derleyicinin zorladığı sözleşme ile programcı hatasının işareti arasındaki fark
