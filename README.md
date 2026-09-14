@@ -18,3 +18,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [arraylist-vs-linkedlist](arraylist-vs-linkedlist/README.md) — iç veri yapısı farkı ve erişim/ekleme maliyetlerinin karşılaştırması
 - [checked-vs-unchecked-exception](checked-vs-unchecked-exception/README.md) — derleyicinin zorladığı sözleşme ile programcı hatasının işareti arasındaki fark
 - [equals-hashcode-contract](equals-hashcode-contract/README.md) — koleksiyonlarda doğru arama için gereken tutarlılık sözleşmesi
+- [priority-queue](priority-queue/README.md) — binary heap tabanlı öncelik sırası ve özel Comparator ile sıralama
