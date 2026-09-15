@@ -19,3 +19,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [checked-vs-unchecked-exception](checked-vs-unchecked-exception/README.md) — derleyicinin zorladığı sözleşme ile programcı hatasının işareti arasındaki fark
 - [equals-hashcode-contract](equals-hashcode-contract/README.md) — koleksiyonlarda doğru arama için gereken tutarlılık sözleşmesi
 - [priority-queue](priority-queue/README.md) — binary heap tabanlı öncelik sırası ve özel Comparator ile sıralama
+- [switch-expression](switch-expression/README.md) — `->` sözdizimiyle fall-through olmadan değer döndüren switch ve `yield`
