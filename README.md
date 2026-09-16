@@ -22,3 +22,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [switch-expression](switch-expression/README.md) — `->` sözdizimiyle fall-through olmadan değer döndüren switch ve `yield`
 - [integer-cache-pitfall](integer-cache-pitfall/README.md) — autoboxing sırasında -128..127 aralığında paylaşılan Integer nesneleri ve `==` tuzağı
 - [static-initialization-order](static-initialization-order/README.md) — sınıf yüklenirken statik alan ve blokların çalışma sırası, miras hiyerarşisindeki etkisi
+- [instanceof-pattern-matching](instanceof-pattern-matching/README.md) — tip kontrolü ile cast'i tek adımda birleştiren pattern variable ve flow scoping
