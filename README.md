@@ -23,3 +23,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [integer-cache-pitfall](integer-cache-pitfall/README.md) — autoboxing sırasında -128..127 aralığında paylaşılan Integer nesneleri ve `==` tuzağı
 - [static-initialization-order](static-initialization-order/README.md) — sınıf yüklenirken statik alan ve blokların çalışma sırası, miras hiyerarşisindeki etkisi
 - [instanceof-pattern-matching](instanceof-pattern-matching/README.md) — tip kontrolü ile cast'i tek adımda birleştiren pattern variable ve flow scoping
+- [generic-wildcards](generic-wildcards/README.md) — `? extends`/`? super` ile producer/consumer ayrımı ve PECS ilkesi
