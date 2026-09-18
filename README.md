@@ -26,3 +26,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [generic-wildcards](generic-wildcards/README.md) — `? extends`/`? super` ile producer/consumer ayrımı ve PECS ilkesi
 - [finally-return-interaction](finally-return-interaction/README.md) — `finally` içindeki `return`'ün `try`'daki değeri ve istisnayı nasıl sessizce iptal ettiği
 - [stream-api-operations](stream-api-operations/README.md) — ara (intermediate) ve terminal operasyonlar arasındaki fark, tembel değerlendirme ve tek kullanımlık stream kuralı
+- [completablefuture-basics](completablefuture-basics/README.md) — bloklamayan asenkron görev zincirleme, sonuç dönüştürme ve exceptionally/handle ile hata yönetimi
