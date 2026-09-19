@@ -27,3 +27,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [finally-return-interaction](finally-return-interaction/README.md) — `finally` içindeki `return`'ün `try`'daki değeri ve istisnayı nasıl sessizce iptal ettiği
 - [stream-api-operations](stream-api-operations/README.md) — ara (intermediate) ve terminal operasyonlar arasındaki fark, tembel değerlendirme ve tek kullanımlık stream kuralı
 - [completablefuture-basics](completablefuture-basics/README.md) — bloklamayan asenkron görev zincirleme, sonuç dönüştürme ve exceptionally/handle ile hata yönetimi
+- [enum-method-override](enum-method-override/README.md) — sabite özgü metot gövdeleri ile enum sabitlerinin farklı davranış tanımlaması
