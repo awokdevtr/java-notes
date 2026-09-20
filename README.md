@@ -29,3 +29,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [completablefuture-basics](completablefuture-basics/README.md) — bloklamayan asenkron görev zincirleme, sonuç dönüştürme ve exceptionally/handle ile hata yönetimi
 - [enum-method-override](enum-method-override/README.md) — sabite özgü metot gövdeleri ile enum sabitlerinin farklı davranış tanımlaması
 - [stringbuilder-vs-string-concatenation](stringbuilder-vs-string-concatenation/README.md) — `+` ile döngüde string birleştirmenin ara nesne maliyeti ve `StringBuilder` ile tek buffer üzerinde biriktirme
+- [constructor-chaining](constructor-chaining/README.md) — `this()` ve `super()` ile constructor'lar arası zincirleme ve çalışma sırası
