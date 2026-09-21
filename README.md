@@ -31,3 +31,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [stringbuilder-vs-string-concatenation](stringbuilder-vs-string-concatenation/README.md) — `+` ile döngüde string birleştirmenin ara nesne maliyeti ve `StringBuilder` ile tek buffer üzerinde biriktirme
 - [constructor-chaining](constructor-chaining/README.md) — `this()` ve `super()` ile constructor'lar arası zincirleme ve çalışma sırası
 - [varargs](varargs/README.md) — `...` ile değişken sayıda argüman kabul eden metotlar ve overload çözümlemesiyle etkileşimi
+- [collectors-groupingby](collectors-groupingby/README.md) — `Collectors.groupingBy` ile stream elemanlarını anahtara göre gruplama ve downstream collector ile özetleme
