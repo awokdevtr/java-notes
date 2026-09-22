@@ -34,3 +34,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [collectors-groupingby](collectors-groupingby/README.md) — `Collectors.groupingBy` ile stream elemanlarını anahtara göre gruplama ve downstream collector ile özetleme
 - [java-time-api](java-time-api/README.md) — `LocalDate`/`LocalDateTime`/`Instant` ile immutable tarih-zaman modeli, `Period` ve `Duration` ile aralık hesabı
 - [functional-interface-method-reference](functional-interface-method-reference/README.md) — tek soyut metotlu arayüzler, lambda ataması ve dört method reference türü arasındaki fark
+- [deque-usage](deque-usage/README.md) — `ArrayDeque` ile aynı yapıyı hem yığın (LIFO) hem kuyruk (FIFO) olarak kullanma
