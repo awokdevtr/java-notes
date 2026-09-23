@@ -36,3 +36,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [functional-interface-method-reference](functional-interface-method-reference/README.md) — tek soyut metotlu arayüzler, lambda ataması ve dört method reference türü arasındaki fark
 - [deque-usage](deque-usage/README.md) — `ArrayDeque` ile aynı yapıyı hem yığın (LIFO) hem kuyruk (FIFO) olarak kullanma
 - [immutability-and-final](immutability-and-final/README.md) — `final` ile alan bağlama ve savunmacı kopyalamayla gerçek değişmezlik arasındaki fark
+- [autoboxing-pitfalls](autoboxing-pitfalls/README.md) — `null` sarmalayıcıların örtük unboxing sırasında fırlattığı `NullPointerException` ve ternary operatöründeki gizli tip dönüşümü
