@@ -40,3 +40,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [var-type-inference](var-type-inference/README.md) — `var` ile derleme zamanında somut tipe bağlanan yerel değişken tip çıkarımı ve çıkarımın imkansız olduğu durumlar
 - [volatile-keyword](volatile-keyword/README.md) — thread'ler arası görünürlük garantisi ve `volatile`'ın atomiklik sağlamamasının yol açtığı tuzak
 - [overload-resolution](overload-resolution/README.md) — üç aşamalı metot seçim algoritması ve autoboxing ile varargs'ın çözümleme sırasına etkisi
+- [synchronized-keyword](synchronized-keyword/README.md) — metot ve blok senkronizasyonuyla karşılıklı dışlama, static kilit ile örnek kilidi arasındaki fark
