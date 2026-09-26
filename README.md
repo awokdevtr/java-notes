@@ -41,3 +41,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [volatile-keyword](volatile-keyword/README.md) — thread'ler arası görünürlük garantisi ve `volatile`'ın atomiklik sağlamamasının yol açtığı tuzak
 - [overload-resolution](overload-resolution/README.md) — üç aşamalı metot seçim algoritması ve autoboxing ile varargs'ın çözümleme sırasına etkisi
 - [synchronized-keyword](synchronized-keyword/README.md) — metot ve blok senkronizasyonuyla karşılıklı dışlama, static kilit ile örnek kilidi arasındaki fark
+- [static-method-hiding](static-method-hiding/README.md) — static metotların derleme zamanı tipine göre çözülmesi ve override ile hiding arasındaki fark
