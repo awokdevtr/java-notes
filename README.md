@@ -43,3 +43,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [synchronized-keyword](synchronized-keyword/README.md) — metot ve blok senkronizasyonuyla karşılıklı dışlama, static kilit ile örnek kilidi arasındaki fark
 - [static-method-hiding](static-method-hiding/README.md) — static metotların derleme zamanı tipine göre çözülmesi ve override ile hiding arasındaki fark
 - [array-covariance](array-covariance/README.md) — dizilerin kovaryant atanabilmesi ve buna karşılık generics'in invariant olmasının yol açtığı `ArrayStoreException`
+- [linkedhashmap-lru-cache](linkedhashmap-lru-cache/README.md) — `accessOrder` ile erişim sırasını izleme ve `removeEldestEntry` ile otomatik boyut sınırlı LRU önbellek kurma
