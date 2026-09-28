@@ -45,3 +45,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [array-covariance](array-covariance/README.md) — dizilerin kovaryant atanabilmesi ve buna karşılık generics'in invariant olmasının yol açtığı `ArrayStoreException`
 - [linkedhashmap-lru-cache](linkedhashmap-lru-cache/README.md) — `accessOrder` ile erişim sırasını izleme ve `removeEldestEntry` ile otomatik boyut sınırlı LRU önbellek kurma
 - [thread-local](thread-local/README.md) — her thread'e özel izole değer tutma ve thread pool'larda `remove()` ile bellek sızıntısını önleme
+- [generic-type-erasure](generic-type-erasure/README.md) — generic tip parametrelerinin derleme sonrası silinmesi ve bunun yol açtığı heap pollution riski
