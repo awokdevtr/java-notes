@@ -47,3 +47,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [thread-local](thread-local/README.md) — her thread'e özel izole değer tutma ve thread pool'larda `remove()` ile bellek sızıntısını önleme
 - [generic-type-erasure](generic-type-erasure/README.md) — generic tip parametrelerinin derleme sonrası silinmesi ve bunun yol açtığı heap pollution riski
 - [bigdecimal-vs-double](bigdecimal-vs-double/README.md) — kayan nokta yuvarlama hatasına karşı ölçekli tamsayı temsili ve para hesaplamalarında yuvarlama stratejisi seçimi
+- [multi-catch-exceptions](multi-catch-exceptions/README.md) — `catch (A | B e)` ile birbiriyle ilişkisiz istisna türlerini tek blokta yakalama ve alt sınıf birleşiminin derleme hatası olması
