@@ -49,3 +49,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [bigdecimal-vs-double](bigdecimal-vs-double/README.md) — kayan nokta yuvarlama hatasına karşı ölçekli tamsayı temsili ve para hesaplamalarında yuvarlama stratejisi seçimi
 - [multi-catch-exceptions](multi-catch-exceptions/README.md) — `catch (A | B e)` ile birbiriyle ilişkisiz istisna türlerini tek blokta yakalama ve alt sınıf birleşiminin derleme hatası olması
 - [atomic-integer-cas](atomic-integer-cas/README.md) — `AtomicInteger` ile compare-and-swap tabanlı kilitsiz sayaç ve `compareAndSet` ile optimistic locking
+- [weak-references](weak-references/README.md) — `WeakReference` ile GC'nin görmezden geldiği referans türü ve `WeakHashMap` ile kendi kendini temizleyen cache
