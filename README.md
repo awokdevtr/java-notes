@@ -52,3 +52,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [weak-references](weak-references/README.md) — `WeakReference` ile GC'nin görmezden geldiği referans türü ve `WeakHashMap` ile kendi kendini temizleyen cache
 - [interface-default-methods](interface-default-methods/README.md) — `default` metotlarla geriye dönük uyumlu arayüz genişletme ve elmas probleminin `Interface.super` ile çözümü
 - [clone-method-pitfalls](clone-method-pitfalls/README.md) — `Object.clone()`'un varsayılan shallow copy davranışı, `Cloneable` sözleşmesinin tuhaflıkları ve deep copy alternatifleri
+- [arrays-aslist-pitfall](arrays-aslist-pitfall/README.md) — `Arrays.asList()`'in sabit boyutlu, diziyle paylaşılan bellekli liste görünümü ve bundan doğan `UnsupportedOperationException` tuzağı
