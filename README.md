@@ -55,3 +55,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [arrays-aslist-pitfall](arrays-aslist-pitfall/README.md) — `Arrays.asList()`'in sabit boyutlu, diziyle paylaşılan bellekli liste görünümü ve bundan doğan `UnsupportedOperationException` tuzağı
 - [record-patterns](record-patterns/README.md) — `instanceof` ve `switch` içinde `record`'ları tek adımda parçalarına ayırma ve iç içe geçmiş desenlerle zincirleme erişimi ortadan kaldırma
 - [reentrantlock-vs-synchronized](reentrantlock-vs-synchronized/README.md) — `synchronized`'ın monitor tabanlı basit kilitlemesi ile `ReentrantLock`'un zaman aşımlı, kesilebilir ve adil kilitleme esnekliği arasındaki fark
+- [copy-on-write-arraylist](copy-on-write-arraylist/README.md) — her yazmada diziyi kopyalayan `CopyOnWriteArrayList` ile kilitsiz okuma ve weakly consistent iterator semantiği
