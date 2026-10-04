@@ -58,3 +58,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [copy-on-write-arraylist](copy-on-write-arraylist/README.md) — her yazmada diziyi kopyalayan `CopyOnWriteArrayList` ile kilitsiz okuma ve weakly consistent iterator semantiği
 - [enummap-enumset](enummap-enumset/README.md) — enum sabitlerini `ordinal()` ile indeksleyen dizi tabanlı `EnumMap` ve bit vektörü tabanlı `EnumSet` ile `HashMap`/`HashSet`'e göre performans kazancı
 - [navigablemap-navigation](navigablemap-navigation/README.md) — `TreeMap`'te `floor`/`ceiling`/`higher`/`lower` ile sıralı anahtar kümesinde en yakın eşleşmeyi `O(log n)`'de bulma
+- [switch-pattern-guards](switch-pattern-guards/README.md) — `when` anahtar kelimesiyle pattern'e ek koşul bağlama ve bunun `exhaustiveness` denetimine etkisi
