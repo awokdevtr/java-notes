@@ -60,3 +60,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [navigablemap-navigation](navigablemap-navigation/README.md) — `TreeMap`'te `floor`/`ceiling`/`higher`/`lower` ile sıralı anahtar kümesinde en yakın eşleşmeyi `O(log n)`'de bulma
 - [switch-pattern-guards](switch-pattern-guards/README.md) — `when` anahtar kelimesiyle pattern'e ek koşul bağlama ve bunun `exhaustiveness` denetimine etkisi
 - [executor-service-thread-pool](executor-service-thread-pool/README.md) — `ExecutorService` ile thread yaratma maliyetini havuzlama, `Future` üzerinden sonuç alma ve `shutdown`/`shutdownNow` kapatma farkı
+- [wait-notify-mechanics](wait-notify-mechanics/README.md) — `Object.wait`/`notify`/`notifyAll` ile monitor üzerinde thread koordinasyonu, `while` ile koşul kontrolü ve kaybolan bildirim tuzağı
