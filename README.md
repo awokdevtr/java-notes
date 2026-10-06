@@ -62,3 +62,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [executor-service-thread-pool](executor-service-thread-pool/README.md) — `ExecutorService` ile thread yaratma maliyetini havuzlama, `Future` üzerinden sonuç alma ve `shutdown`/`shutdownNow` kapatma farkı
 - [wait-notify-mechanics](wait-notify-mechanics/README.md) — `Object.wait`/`notify`/`notifyAll` ile monitor üzerinde thread koordinasyonu, `while` ile koşul kontrolü ve kaybolan bildirim tuzağı
 - [instance-initializer-block](instance-initializer-block/README.md) — `static` olmayan `{}` bloğuyla constructor'lar arası ortak kurulum kodu ve anonim sınıflarda "double brace initialization" kalıbı
+- [inner-vs-static-nested-class](inner-vs-static-nested-class/README.md) — `static` iç sınıfların dış örnekten bağımsızlığı ile inner class'ların dış nesneye tuttuğu gizli referansın yol açtığı bellek sızıntısı riski
