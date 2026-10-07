@@ -64,3 +64,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [instance-initializer-block](instance-initializer-block/README.md) — `static` olmayan `{}` bloğuyla constructor'lar arası ortak kurulum kodu ve anonim sınıflarda "double brace initialization" kalıbı
 - [inner-vs-static-nested-class](inner-vs-static-nested-class/README.md) — `static` iç sınıfların dış örnekten bağımsızlığı ile inner class'ların dış nesneye tuttuğu gizli referansın yol açtığı bellek sızıntısı riski
 - [covariant-return-types](covariant-return-types/README.md) — override edilen metotların üst sınıfın dönüş tipinin bir alt tipini döndürebilmesi ve `clone()` gibi kullanımlarda cast ihtiyacını ortadan kaldırması
+- [countdown-latch](countdown-latch/README.md) — `CountDownLatch` ile birden fazla thread'in belirli sayıda işin tamamlanmasını beklemesi ve sayacın tek kullanımlık, sıfırlanamaz yapısı
