@@ -65,3 +65,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [inner-vs-static-nested-class](inner-vs-static-nested-class/README.md) — `static` iç sınıfların dış örnekten bağımsızlığı ile inner class'ların dış nesneye tuttuğu gizli referansın yol açtığı bellek sızıntısı riski
 - [covariant-return-types](covariant-return-types/README.md) — override edilen metotların üst sınıfın dönüş tipinin bir alt tipini döndürebilmesi ve `clone()` gibi kullanımlarda cast ihtiyacını ortadan kaldırması
 - [countdown-latch](countdown-latch/README.md) — `CountDownLatch` ile birden fazla thread'in belirli sayıda işin tamamlanmasını beklemesi ve sayacın tek kullanımlık, sıfırlanamaz yapısı
+- [effectively-final-lambda-capture](effectively-final-lambda-capture/README.md) — lambda'ların yerel değişkenleri değer olarak yakalaması ve bunun için değişkenin `effectively final` olma zorunluluğu
