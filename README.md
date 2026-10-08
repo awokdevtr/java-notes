@@ -66,3 +66,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [covariant-return-types](covariant-return-types/README.md) — override edilen metotların üst sınıfın dönüş tipinin bir alt tipini döndürebilmesi ve `clone()` gibi kullanımlarda cast ihtiyacını ortadan kaldırması
 - [countdown-latch](countdown-latch/README.md) — `CountDownLatch` ile birden fazla thread'in belirli sayıda işin tamamlanmasını beklemesi ve sayacın tek kullanımlık, sıfırlanamaz yapısı
 - [effectively-final-lambda-capture](effectively-final-lambda-capture/README.md) — lambda'ların yerel değişkenleri değer olarak yakalaması ve bunun için değişkenin `effectively final` olma zorunluluğu
+- [fork-join-pool](fork-join-pool/README.md) — `RecursiveTask` ile böl-ve-fethet görevleri ve work-stealing algoritmasıyla boştaki thread'lere görev dağıtımı
