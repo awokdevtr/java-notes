@@ -68,3 +68,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [countdown-latch](countdown-latch/README.md) — `CountDownLatch` ile birden fazla thread'in belirli sayıda işin tamamlanmasını beklemesi ve sayacın tek kullanımlık, sıfırlanamaz yapısı
 - [effectively-final-lambda-capture](effectively-final-lambda-capture/README.md) — lambda'ların yerel değişkenleri değer olarak yakalaması ve bunun için değişkenin `effectively final` olma zorunluluğu
 - [fork-join-pool](fork-join-pool/README.md) — `RecursiveTask` ile böl-ve-fethet görevleri ve work-stealing algoritmasıyla boştaki thread'lere görev dağıtımı
+- [virtual-threads](virtual-threads/README.md) — `Thread.ofVirtual()` ile hafif thread'ler, bloklayan çağrılarda otomatik unmount/mount davranışı ve `synchronized` ile oluşan pinning tuzağı
