@@ -70,3 +70,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [fork-join-pool](fork-join-pool/README.md) — `RecursiveTask` ile böl-ve-fethet görevleri ve work-stealing algoritmasıyla boştaki thread'lere görev dağıtımı
 - [virtual-threads](virtual-threads/README.md) — `Thread.ofVirtual()` ile hafif thread'ler, bloklayan çağrılarda otomatik unmount/mount davranışı ve `synchronized` ile oluşan pinning tuzağı
 - [transient-keyword](transient-keyword/README.md) — `transient` ile bir alanı serileştirme akışından hariç tutma ve `readObject` içinde deserileştirme sonrası yeniden kurma
+- [concurrenthashmap-internals](concurrenthashmap-internals/README.md) — bucket seviyesinde ince taneli kilitleme ve zayıf tutarlı (`weakly consistent`) iterator davranışı
