@@ -72,3 +72,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [transient-keyword](transient-keyword/README.md) — `transient` ile bir alanı serileştirme akışından hariç tutma ve `readObject` içinde deserileştirme sonrası yeniden kurma
 - [concurrenthashmap-internals](concurrenthashmap-internals/README.md) — bucket seviyesinde ince taneli kilitleme ve zayıf tutarlı (`weakly consistent`) iterator davranışı
 - [semaphore-basics](semaphore-basics/README.md) — `Semaphore` ile sınırlı sayıda kaynağa eş zamanlı erişim kontrolü, `acquire`/`release` izin mekanizması ve adil (fair) mod
+- [nan-comparison-pitfalls](nan-comparison-pitfalls/README.md) — IEEE 754 `NaN` değerinin `==` ile kendisine bile eşit sayılmaması ve kutulanmış `Double.equals()`'ın bunun tersini yapması
