@@ -74,3 +74,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [semaphore-basics](semaphore-basics/README.md) — `Semaphore` ile sınırlı sayıda kaynağa eş zamanlı erişim kontrolü, `acquire`/`release` izin mekanizması ve adil (fair) mod
 - [nan-comparison-pitfalls](nan-comparison-pitfalls/README.md) — IEEE 754 `NaN` değerinin `==` ile kendisine bile eşit sayılmaması ve kutulanmış `Double.equals()`'ın bunun tersini yapması
 - [cyclic-barrier](cyclic-barrier/README.md) — `CyclicBarrier` ile birden fazla thread'in her turda birbirini beklediği tekrarlanabilir senkronizasyon noktası ve kırık bariyer durumunun yönetimi
+- [blocking-queue](blocking-queue/README.md) — `BlockingQueue` ile üretici-tüketici deseninde kapasiteye bağlı otomatik bloklama, zaman aşımlı `offer`/`poll` ile akış kontrolü
