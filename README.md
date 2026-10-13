@@ -75,3 +75,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [nan-comparison-pitfalls](nan-comparison-pitfalls/README.md) — IEEE 754 `NaN` değerinin `==` ile kendisine bile eşit sayılmaması ve kutulanmış `Double.equals()`'ın bunun tersini yapması
 - [cyclic-barrier](cyclic-barrier/README.md) — `CyclicBarrier` ile birden fazla thread'in her turda birbirini beklediği tekrarlanabilir senkronizasyon noktası ve kırık bariyer durumunun yönetimi
 - [blocking-queue](blocking-queue/README.md) — `BlockingQueue` ile üretici-tüketici deseninde kapasiteye bağlı otomatik bloklama, zaman aşımlı `offer`/`poll` ile akış kontrolü
+- [longadder-vs-atomiclong](longadder-vs-atomiclong/README.md) — yüksek çekişme altında tek değişkeni yarıştıran `AtomicLong` ile yazma yükünü hücrelere dağıtan `LongAdder` arasındaki performans farkı
