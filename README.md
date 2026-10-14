@@ -77,3 +77,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [blocking-queue](blocking-queue/README.md) — `BlockingQueue` ile üretici-tüketici deseninde kapasiteye bağlı otomatik bloklama, zaman aşımlı `offer`/`poll` ile akış kontrolü
 - [longadder-vs-atomiclong](longadder-vs-atomiclong/README.md) — yüksek çekişme altında tek değişkeni yarıştıran `AtomicLong` ile yazma yükünü hücrelere dağıtan `LongAdder` arasındaki performans farkı
 - [stringbuilder-vs-stringbuffer](stringbuilder-vs-stringbuffer/README.md) — `StringBuffer`'ın her metodunu kilitleyen senkronizasyon yükü ile senkronize olmayan `StringBuilder`'ın tek thread'de sağladığı performans farkı
+- [immutable-vs-unmodifiable-list](immutable-vs-unmodifiable-list/README.md) — `Collections.unmodifiableList()`'in sadece bir görünüm olması ile `List.of()`'un elemanları kopyalayarak sağladığı gerçek, bağımsız değişmezlik arasındaki fark
