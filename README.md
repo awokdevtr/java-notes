@@ -79,3 +79,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [stringbuilder-vs-stringbuffer](stringbuilder-vs-stringbuffer/README.md) — `StringBuffer`'ın her metodunu kilitleyen senkronizasyon yükü ile senkronize olmayan `StringBuilder`'ın tek thread'de sağladığı performans farkı
 - [immutable-vs-unmodifiable-list](immutable-vs-unmodifiable-list/README.md) — `Collections.unmodifiableList()`'in sadece bir görünüm olması ile `List.of()`'un elemanları kopyalayarak sağladığı gerçek, bağımsız değişmezlik arasındaki fark
 - [regex-pattern-matcher](regex-pattern-matcher/README.md) — `Pattern`/`Matcher` ile regex derleme ve eşleştirmenin ayrılması, yakalama grupları ve `Matcher`'ın durum tutan (stateful) doğası
+- [reentrant-read-write-lock](reentrant-read-write-lock/README.md) — `ReentrantReadWriteLock` ile okuma/yazma erişimini ayrı kilitlere bölerek okuma ağırlıklı senaryolarda paralellik kazanma
