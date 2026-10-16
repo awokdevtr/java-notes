@@ -81,3 +81,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [regex-pattern-matcher](regex-pattern-matcher/README.md) — `Pattern`/`Matcher` ile regex derleme ve eşleştirmenin ayrılması, yakalama grupları ve `Matcher`'ın durum tutan (stateful) doğası
 - [reentrant-read-write-lock](reentrant-read-write-lock/README.md) — `ReentrantReadWriteLock` ile okuma/yazma erişimini ayrı kilitlere bölerek okuma ağırlıklı senaryolarda paralellik kazanma
 - [iterator-vs-listiterator](iterator-vs-listiterator/README.md) — `Iterator`'ın tek yönlü gezintisine karşı `ListIterator`'ın geriye gezinme, yerinde `set()` ve gezinti sırasında `add()` yetenekleri
+- [sequenced-collections](sequenced-collections/README.md) — `List`, `Deque`, `LinkedHashSet` ve `LinkedHashMap`'i ortak `addFirst`/`getLast` sözleşmesinde birleştiren `SequencedCollection` ve kopyasız `reversed()` görünümü
