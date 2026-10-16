@@ -82,3 +82,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [reentrant-read-write-lock](reentrant-read-write-lock/README.md) — `ReentrantReadWriteLock` ile okuma/yazma erişimini ayrı kilitlere bölerek okuma ağırlıklı senaryolarda paralellik kazanma
 - [iterator-vs-listiterator](iterator-vs-listiterator/README.md) — `Iterator`'ın tek yönlü gezintisine karşı `ListIterator`'ın geriye gezinme, yerinde `set()` ve gezinti sırasında `add()` yetenekleri
 - [sequenced-collections](sequenced-collections/README.md) — `List`, `Deque`, `LinkedHashSet` ve `LinkedHashMap`'i ortak `addFirst`/`getLast` sözleşmesinde birleştiren `SequencedCollection` ve kopyasız `reversed()` görünümü
+- [collectors-partitioningby](collectors-partitioningby/README.md) — `Collectors.partitioningBy` ile bir stream'i `Predicate` sonucuna göre her zaman tam iki anahtarlı (`true`/`false`) bir `Map`'e bölme
