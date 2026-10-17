@@ -83,3 +83,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [iterator-vs-listiterator](iterator-vs-listiterator/README.md) — `Iterator`'ın tek yönlü gezintisine karşı `ListIterator`'ın geriye gezinme, yerinde `set()` ve gezinti sırasında `add()` yetenekleri
 - [sequenced-collections](sequenced-collections/README.md) — `List`, `Deque`, `LinkedHashSet` ve `LinkedHashMap`'i ortak `addFirst`/`getLast` sözleşmesinde birleştiren `SequencedCollection` ve kopyasız `reversed()` görünümü
 - [collectors-partitioningby](collectors-partitioningby/README.md) — `Collectors.partitioningBy` ile bir stream'i `Predicate` sonucuna göre her zaman tam iki anahtarlı (`true`/`false`) bir `Map`'e bölme
+- [stamped-lock](stamped-lock/README.md) — `StampedLock`'un kilitsiz "optimistic read" modu ile okuma ağırlıklı senaryolarda `ReentrantReadWriteLock`'a göre daha düşük ek yük sağlaması
