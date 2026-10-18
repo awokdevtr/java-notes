@@ -85,3 +85,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [collectors-partitioningby](collectors-partitioningby/README.md) — `Collectors.partitioningBy` ile bir stream'i `Predicate` sonucuna göre her zaman tam iki anahtarlı (`true`/`false`) bir `Map`'e bölme
 - [stamped-lock](stamped-lock/README.md) — `StampedLock`'un kilitsiz "optimistic read" modu ile okuma ağırlıklı senaryolarda `ReentrantReadWriteLock`'a göre daha düşük ek yük sağlaması
 - [exchanger-thread-handoff](exchanger-thread-handoff/README.md) — `Exchanger` ile iki thread'in `exchange()` çağrısında eşleşip birbirine simetrik olarak nesne devretmesi
+- [labeled-break-continue](labeled-break-continue/README.md) — etiketli `break`/`continue` ile iç içe döngülerde doğrudan dış döngüyü durdurma veya ilerletme
