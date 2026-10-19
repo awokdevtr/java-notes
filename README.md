@@ -87,3 +87,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [exchanger-thread-handoff](exchanger-thread-handoff/README.md) — `Exchanger` ile iki thread'in `exchange()` çağrısında eşleşip birbirine simetrik olarak nesne devretmesi
 - [labeled-break-continue](labeled-break-continue/README.md) — etiketli `break`/`continue` ile iç içe döngülerde doğrudan dış döngüyü durdurma veya ilerletme
 - [phaser-basics](phaser-basics/README.md) — `Phaser`'ın `CyclicBarrier`'dan farklı olarak dinamik katılımcı sayısı ve çok aşamalı (multi-phase) senkronizasyon sunması
+- [arrays-sort-internals](arrays-sort-internals/README.md) — `Arrays.sort()`'un ilkel dizilerde kararsız Dual-Pivot Quicksort, nesne dizilerinde ise kararlı TimSort çalıştırması
