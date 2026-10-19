@@ -88,3 +88,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [labeled-break-continue](labeled-break-continue/README.md) — etiketli `break`/`continue` ile iç içe döngülerde doğrudan dış döngüyü durdurma veya ilerletme
 - [phaser-basics](phaser-basics/README.md) — `Phaser`'ın `CyclicBarrier`'dan farklı olarak dinamik katılımcı sayısı ve çok aşamalı (multi-phase) senkronizasyon sunması
 - [arrays-sort-internals](arrays-sort-internals/README.md) — `Arrays.sort()`'un ilkel dizilerde kararsız Dual-Pivot Quicksort, nesne dizilerinde ise kararlı TimSort çalıştırması
+- [thread-interrupt-flag](thread-interrupt-flag/README.md) — `Thread.interrupt()` ile kooperatif durdurma sinyali, `isInterrupted()`/`interrupted()` farkı ve `InterruptedException` sırasında bayrağın temizlenmesi
