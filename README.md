@@ -90,3 +90,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [arrays-sort-internals](arrays-sort-internals/README.md) — `Arrays.sort()`'un ilkel dizilerde kararsız Dual-Pivot Quicksort, nesne dizilerinde ise kararlı TimSort çalıştırması
 - [thread-interrupt-flag](thread-interrupt-flag/README.md) — `Thread.interrupt()` ile kooperatif durdurma sinyali, `isInterrupted()`/`interrupted()` farkı ve `InterruptedException` sırasında bayrağın temizlenmesi
 - [threadlocalrandom-vs-random](threadlocalrandom-vs-random/README.md) — paylaşılan `Random`'ın CAS çekişmesine karşı her thread'e izole üreteç veren `ThreadLocalRandom` ile kilitsiz rastgele sayı üretimi
+- [safevarargs-heap-pollution](safevarargs-heap-pollution/README.md) — generic `varargs`'ın derleyici seviyesinde yarattığı `heap pollution` riski ve `@SafeVarargs`'ın sadece override edilemeyen metotlarda verdiği güvenlik sözü
