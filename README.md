@@ -94,3 +94,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [integer-overflow-wraparound](integer-overflow-wraparound/README.md) — `int`/`long` aritmetiğinin sınır aşıldığında exception fırlatmadan sessizce sarması ve `Math.addExact` ile erken tespiti
 - [string-joiner](string-joiner/README.md) — `StringJoiner` ile ayraç/önek/sonek mantığını elle yönetmeden eleman biriktirme ve `setEmptyValue` ile boş durum özelleştirmesi
 - [lock-condition-variables](lock-condition-variables/README.md) — `Lock.newCondition()` ile aynı kilit altında birden fazla bağımsız bekleme kümesi tanımlayarak `wait`/`notify`'ın tek bekleme havuzu sınırlamasını aşma
+- [string-split-pitfalls](string-split-pitfalls/README.md) — `String.split()`'in regex tabanlı argümanı ve sondaki boş parçaları varsayılan olarak silmesinin yol açtığı veri kaybı, `limit` parametresiyle kontrol
