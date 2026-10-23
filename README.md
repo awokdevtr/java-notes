@@ -96,3 +96,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [lock-condition-variables](lock-condition-variables/README.md) — `Lock.newCondition()` ile aynı kilit altında birden fazla bağımsız bekleme kümesi tanımlayarak `wait`/`notify`'ın tek bekleme havuzu sınırlamasını aşma
 - [string-split-pitfalls](string-split-pitfalls/README.md) — `String.split()`'in regex tabanlı argümanı ve sondaki boş parçaları varsayılan olarak silmesinin yol açtığı veri kaybı, `limit` parametresiyle kontrol
 - [map-compute-methods](map-compute-methods/README.md) — `computeIfAbsent`, `merge` ve `getOrDefault` ile containsKey/get/put tekrarını atomik tek çağrıya indirme
+- [private-interface-methods](private-interface-methods/README.md) — Java 9 ile arayüzlerde `private` (ve `private static`) metotlarla `default` metotlar arası kod tekrarını sözleşmeyi büyütmeden gizleme
