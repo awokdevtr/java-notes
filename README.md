@@ -97,3 +97,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [string-split-pitfalls](string-split-pitfalls/README.md) — `String.split()`'in regex tabanlı argümanı ve sondaki boş parçaları varsayılan olarak silmesinin yol açtığı veri kaybı, `limit` parametresiyle kontrol
 - [map-compute-methods](map-compute-methods/README.md) — `computeIfAbsent`, `merge` ve `getOrDefault` ile containsKey/get/put tekrarını atomik tek çağrıya indirme
 - [private-interface-methods](private-interface-methods/README.md) — Java 9 ile arayüzlerde `private` (ve `private static`) metotlarla `default` metotlar arası kod tekrarını sözleşmeyi büyütmeden gizleme
+- [objects-utility-methods](objects-utility-methods/README.md) — `java.util.Objects` ile `equals`/`hashCode`/`toString` yazımında null kontrolünü tekrar etmeden `Objects.equals`, `Objects.hash` ve `Objects.requireNonNull`'a devretme
