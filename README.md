@@ -100,3 +100,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [objects-utility-methods](objects-utility-methods/README.md) — `java.util.Objects` ile `equals`/`hashCode`/`toString` yazımında null kontrolünü tekrar etmeden `Objects.equals`, `Objects.hash` ve `Objects.requireNonNull`'a devretme
 - [list-sublist-view](list-sublist-view/README.md) — `List.subList()`'in kopya değil orijinal listeye bağlı bir görünüm (view) döndürmesi ve ana listenin dışarıdan değiştirilmesiyle alt listenin kullanılamaz hale gelmesi
 - [scanner-nextline-pitfall](scanner-nextline-pitfall/README.md) — `nextInt()` sonrası `nextLine()` çağrısının akışta bekleyen yeni satırı okuyup boş string döndürmesi tuzağı
+- [ternary-numeric-promotion](ternary-numeric-promotion/README.md) — `?:` operatöründe `int`/`Integer` karışık operandların ikili sayısal yükseltmeye uğraması ve seçilmeyen gibi görünen koşulda bile `null` unboxing'in `NullPointerException` fırlatması
