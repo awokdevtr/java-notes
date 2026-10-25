@@ -99,3 +99,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [private-interface-methods](private-interface-methods/README.md) — Java 9 ile arayüzlerde `private` (ve `private static`) metotlarla `default` metotlar arası kod tekrarını sözleşmeyi büyütmeden gizleme
 - [objects-utility-methods](objects-utility-methods/README.md) — `java.util.Objects` ile `equals`/`hashCode`/`toString` yazımında null kontrolünü tekrar etmeden `Objects.equals`, `Objects.hash` ve `Objects.requireNonNull`'a devretme
 - [list-sublist-view](list-sublist-view/README.md) — `List.subList()`'in kopya değil orijinal listeye bağlı bir görünüm (view) döndürmesi ve ana listenin dışarıdan değiştirilmesiyle alt listenin kullanılamaz hale gelmesi
+- [scanner-nextline-pitfall](scanner-nextline-pitfall/README.md) — `nextInt()` sonrası `nextLine()` çağrısının akışta bekleyen yeni satırı okuyup boş string döndürmesi tuzağı
