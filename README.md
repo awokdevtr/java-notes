@@ -103,3 +103,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [ternary-numeric-promotion](ternary-numeric-promotion/README.md) — `?:` operatöründe `int`/`Integer` karışık operandların ikili sayısal yükseltmeye uğraması ve seçilmeyen gibi görünen koşulda bile `null` unboxing'in `NullPointerException` fırlatması
 - [arraylist-capacity-growth](arraylist-capacity-growth/README.md) — `ArrayList`'in iç dizisinin dolduğunda yaklaşık `%50` büyümesi, bu kopyalamanın amortize maliyeti ve kapasiteyi önceden belirlemenin faydası
 - [collectors-tomap](collectors-tomap/README.md) — `Collectors.toMap`'in çakışan anahtarlarda fırlattığı `IllegalStateException` ve üç argümanlı overload'daki `merge` fonksiyonuyla çözümü
+- [array-tostring-pitfall](array-tostring-pitfall/README.md) — dizilerin `Object.toString()`'ten miras aldığı hash tabanlı varsayılan temsili ve `Arrays.toString`/`deepToString` ile içerik bazlı doğru yazdırma
