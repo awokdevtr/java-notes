@@ -105,3 +105,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [arraylist-capacity-growth](arraylist-capacity-growth/README.md) — `ArrayList`'in iç dizisinin dolduğunda yaklaşık `%50` büyümesi, bu kopyalamanın amortize maliyeti ve kapasiteyi önceden belirlemenin faydası
 - [collectors-tomap](collectors-tomap/README.md) — `Collectors.toMap`'in çakışan anahtarlarda fırlattığı `IllegalStateException` ve üç argümanlı overload'daki `merge` fonksiyonuyla çözümü
 - [array-tostring-pitfall](array-tostring-pitfall/README.md) — dizilerin `Object.toString()`'ten miras aldığı hash tabanlı varsayılan temsili ve `Arrays.toString`/`deepToString` ile içerik bazlı doğru yazdırma
+- [bitset-basics](bitset-basics/README.md) — `BitSet`'in `long[]` üzerinde bit paketleyerek sağladığı bellek/performans avantajı ve `and`/`or`/`xor` ile kelime seviyesinde küme işlemleri
