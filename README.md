@@ -107,3 +107,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [array-tostring-pitfall](array-tostring-pitfall/README.md) — dizilerin `Object.toString()`'ten miras aldığı hash tabanlı varsayılan temsili ve `Arrays.toString`/`deepToString` ile içerik bazlı doğru yazdırma
 - [bitset-basics](bitset-basics/README.md) — `BitSet`'in `long[]` üzerinde bit paketleyerek sağladığı bellek/performans avantajı ve `and`/`or`/`xor` ile kelime seviyesinde küme işlemleri
 - [arrays-binarysearch-contract](arrays-binarysearch-contract/README.md) — `Arrays.binarySearch()`'ün sıralı dizi ön koşulu ve bu koşul ihlal edildiğinde ortaya çıkan tanımsız (sessizce yanlış) sonuç davranışı
+- [custom-iterable-implementation](custom-iterable-implementation/README.md) — `Iterable`/`Iterator` sözleşmesini uygulayarak kendi sınıfınızı `for-each` döngüsünde kullanılabilir hale getirme
