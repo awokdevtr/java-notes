@@ -108,3 +108,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [bitset-basics](bitset-basics/README.md) — `BitSet`'in `long[]` üzerinde bit paketleyerek sağladığı bellek/performans avantajı ve `and`/`or`/`xor` ile kelime seviyesinde küme işlemleri
 - [arrays-binarysearch-contract](arrays-binarysearch-contract/README.md) — `Arrays.binarySearch()`'ün sıralı dizi ön koşulu ve bu koşul ihlal edildiğinde ortaya çıkan tanımsız (sessizce yanlış) sonuç davranışı
 - [custom-iterable-implementation](custom-iterable-implementation/README.md) — `Iterable`/`Iterator` sözleşmesini uygulayarak kendi sınıfınızı `for-each` döngüsünde kullanılabilir hale getirme
+- [system-arraycopy](system-arraycopy/README.md) — `System.arraycopy`'nin native optimizasyonu ve çakışan kaynak/hedef aralıklarını güvenli kopyalama garantisi
