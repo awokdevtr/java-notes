@@ -117,3 +117,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [stringbuilder-reverse-surrogate-pitfall](stringbuilder-reverse-surrogate-pitfall/README.md) — `StringBuilder.reverse()`'ün surrogate pair'leri doğru koruması ile combining karakterlerin sırasını bozarak anlamı kaybetmesi arasındaki fark
 - [uuid-basics](uuid-basics/README.md) — `UUID.randomUUID()` ile koordinasyonsuz benzersiz kimlik üretimi, bit düzeyinde `equals`/`hashCode` sözleşmesi ve sıralı olmamasının indeks performansına etkisi
 - [assert-keyword](assert-keyword/README.md) — `assert` deyiminin varsayılan olarak devre dışı olması, `-ea` bayrağıyla etkinleştirilmesi ve bu yüzden dışarıdan gelen girdi doğrulaması için güvenilmemesi gerektiği
+- [math-clamp](math-clamp/README.md) — `Math.clamp` ile bir değeri `Math.max`/`Math.min` zinciri yazmadan tek çağrıda bir aralığa sıkıştırma ve geçersiz `min > max` aralığında fırlatılan `IllegalArgumentException`
