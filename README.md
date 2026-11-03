@@ -118,3 +118,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [uuid-basics](uuid-basics/README.md) — `UUID.randomUUID()` ile koordinasyonsuz benzersiz kimlik üretimi, bit düzeyinde `equals`/`hashCode` sözleşmesi ve sıralı olmamasının indeks performansına etkisi
 - [assert-keyword](assert-keyword/README.md) — `assert` deyiminin varsayılan olarak devre dışı olması, `-ea` bayrağıyla etkinleştirilmesi ve bu yüzden dışarıdan gelen girdi doğrulaması için güvenilmemesi gerektiği
 - [math-clamp](math-clamp/README.md) — `Math.clamp` ile bir değeri `Math.max`/`Math.min` zinciri yazmadan tek çağrıda bir aralığa sıkıştırma ve geçersiz `min > max` aralığında fırlatılan `IllegalArgumentException`
+- [interface-static-methods](interface-static-methods/README.md) — arayüz içinde tanımlanan `static` fabrika/yardımcı metotların implement eden sınıflara miras geçmemesi ve her zaman arayüz adı üzerinden çağrılması gerekmesi
