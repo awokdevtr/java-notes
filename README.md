@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [comparator-subtraction-overflow](comparator-subtraction-overflow/README.md) — `return a - b;` kısayolunun uç değerlerde taşarak sıralamayı sessizce bozması
 - [identityhashmap-basics](identityhashmap-basics/README.md) — anahtar karşılaştırmasını `equals()` yerine `==` üzerinden yapan `Map` uygulaması
 - [try-with-resources](try-with-resources/README.md) — kaynakların otomatik kapatılması ve bastırılmış istisnalar
 - [biginteger-basics](biginteger-basics/README.md) — `long`'un 64 bit sınırını aşan kesin tamsayı aritmetiği ve `BigInteger`'ın immutable, keyfi uzunluktaki iç temsili
