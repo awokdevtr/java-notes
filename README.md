@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [collectors-teeing](collectors-teeing/README.md) — `Collectors.teeing` ile bir stream'i tek geçişte iki collector'a besleyip sonuçlarını bir `BiFunction` ile birleştirme
 - [serialization-basics](serialization-basics/README.md) — `Serializable`, `transient` alanların hariç tutulması ve `serialVersionUID` uyumsuzluğunun `InvalidClassException`'a yol açması
 - [comparator-subtraction-overflow](comparator-subtraction-overflow/README.md) — `return a - b;` kısayolunun uç değerlerde taşarak sıralamayı sessizce bozması
 - [identityhashmap-basics](identityhashmap-basics/README.md) — anahtar karşılaştırmasını `equals()` yerine `==` üzerinden yapan `Map` uygulaması
