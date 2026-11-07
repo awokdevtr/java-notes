@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [stackwalker-api](stackwalker-api/README.md) — `StackWalker` ile çağrı yığınını eski `getStackTrace()`'in eager dizi kopyalamasından farklı olarak lazy bir `Stream<StackFrame>` üzerinden gezme ve `RETAIN_CLASS_REFERENCE` ile çağıran sınıfı doğrudan alma
 - [parallel-stream-pitfalls](parallel-stream-pitfalls/README.md) — `parallelStream()`'in küçük veri setlerinde getirdiği ek maliyet ve paylaşılan mutable durumla kullanıldığında ortaya çıkan veri yarışları
 - [collectors-teeing](collectors-teeing/README.md) — `Collectors.teeing` ile bir stream'i tek geçişte iki collector'a besleyip sonuçlarını bir `BiFunction` ile birleştirme
 - [serialization-basics](serialization-basics/README.md) — `Serializable`, `transient` alanların hariç tutulması ve `serialVersionUID` uyumsuzluğunun `InvalidClassException`'a yol açması
