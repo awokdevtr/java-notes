@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [hashmap-vs-hashtable](hashmap-vs-hashtable/README.md) — `Hashtable`'ın her metodunun `synchronized` olmasından kaynaklanan kaba taneli kilitleme ile `HashMap`'in senkronize olmaması ve `null` anahtar/değer desteği arasındaki fark
 - [unsigned-right-shift-operator](unsigned-right-shift-operator/README.md) — `>>` işaretli sağa kaydırmanın işaret bitini koruması ile `>>>` işaretsiz sağa kaydırmanın en soldan her zaman `0` sokarak negatif sayıları büyük pozitif değerlere çevirmesi arasındaki fark
 - [reflection-basics](reflection-basics/README.md) — `java.lang.reflect` ile çalışma zamanında sınıf yapısını inceleme, `getDeclaredMethods`/`getDeclaredField` ve `setAccessible` ile `private` üyelere erişimin modül sistemi ve performans maliyetleri
 - [nio-path-files](nio-path-files/README.md) — `java.nio.file.Path`/`Files` ile eski `java.io.File`'ın sessiz `boolean` dönüşlerinin yerine `IOException` tabanlı, nedeni taşıyan dosya işlemleri
