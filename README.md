@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [stream-tolist-vs-collectors-tolist](stream-tolist-vs-collectors-tolist/README.md) — `Stream.toList()`'in değiştirilemez ve `null` elemana izin vermeyen bir liste döndürmesi ile `collect(Collectors.toList())`'in değiştirilebilir, `null` destekleyen bir `ArrayList` üretmesi arasındaki fark
 - [hashmap-vs-hashtable](hashmap-vs-hashtable/README.md) — `Hashtable`'ın her metodunun `synchronized` olmasından kaynaklanan kaba taneli kilitleme ile `HashMap`'in senkronize olmaması ve `null` anahtar/değer desteği arasındaki fark
 - [unsigned-right-shift-operator](unsigned-right-shift-operator/README.md) — `>>` işaretli sağa kaydırmanın işaret bitini koruması ile `>>>` işaretsiz sağa kaydırmanın en soldan her zaman `0` sokarak negatif sayıları büyük pozitif değerlere çevirmesi arasındaki fark
 - [reflection-basics](reflection-basics/README.md) — `java.lang.reflect` ile çalışma zamanında sınıf yapısını inceleme, `getDeclaredMethods`/`getDeclaredField` ve `setAccessible` ile `private` üyelere erişimin modül sistemi ve performans maliyetleri
