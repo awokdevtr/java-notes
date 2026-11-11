@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [daemon-threads](daemon-threads/README.md) — `setDaemon(true)` ile işaretlenen thread'lerin JVM'i canlı tutmaması, ortada hiç `user thread` kalmadığında `finally` blokları çalıştırılmadan aniden durdurulması ve bu bayrağın sadece `start()` öncesi değiştirilebilmesi
 - [numeric-literals-underscore](numeric-literals-underscore/README.md) — sayısal literallerde okunabilirlik için kullanılan `_` ayracının derleme zamanında tamamen silinmesi ve ondalık noktaya/son eke/önek'e bitişik yerleştirildiğinde verdiği derleme hatası
 - [stream-tolist-vs-collectors-tolist](stream-tolist-vs-collectors-tolist/README.md) — `Stream.toList()`'in değiştirilemez ve `null` elemana izin vermeyen bir liste döndürmesi ile `collect(Collectors.toList())`'in değiştirilebilir, `null` destekleyen bir `ArrayList` üretmesi arasındaki fark
 - [hashmap-vs-hashtable](hashmap-vs-hashtable/README.md) — `Hashtable`'ın her metodunun `synchronized` olmasından kaynaklanan kaba taneli kilitleme ile `HashMap`'in senkronize olmaması ve `null` anahtar/değer desteği arasındaki fark
