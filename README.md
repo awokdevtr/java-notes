@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [hashset-vs-treeset](hashset-vs-treeset/README.md) — `HashSet`'in hash tablosu tabanlı sırasız `O(1)` erişimi ile `TreeSet`'in kırmızı-siyah ağaç tabanlı sıralı `O(log n)` erişimi arasındaki fark, doğal sıralama/`Comparator` gereksinimi ve `null` eleman davranışı
 - [shutdown-hooks](shutdown-hooks/README.md) — `Runtime.addShutdownHook()` ile JVM kapanış anında tetiklenen, birbirine göre eşzamanlı çalışan temizlik thread'leri ve bunların `Runtime.halt()` veya zorla sonlandırmada hiç çalışmaması
 - [cleaner-api](cleaner-api/README.md) — `Object.finalize()`'ın deprecated olmasının nedenleri ve `java.lang.ref.Cleaner` ile bir nesne phantom reachable olduğunda tetiklenen, `this`'e referans sızdırmayan güvenli temizlik eylemi kaydı
 - [daemon-threads](daemon-threads/README.md) — `setDaemon(true)` ile işaretlenen thread'lerin JVM'i canlı tutmaması, ortada hiç `user thread` kalmadığında `finally` blokları çalıştırılmadan aniden durdurulması ve bu bayrağın sadece `start()` öncesi değiştirilebilmesi
