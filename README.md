@@ -137,3 +137,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [interface-static-methods](interface-static-methods/README.md) — arayüz içinde tanımlanan `static` fabrika/yardımcı metotların implement eden sınıflara miras geçmemesi ve her zaman arayüz adı üzerinden çağrılması gerekmesi
 - [string-strip-vs-trim](string-strip-vs-trim/README.md) — `trim()`'in sadece ASCII boşluk eşiğine bakması ile `strip()`'in `Character.isWhitespace` üzerinden Unicode boşlukları (örn. no-break space) da kırpması arasındaki fark
 - [local-classes](local-classes/README.md) — bir sınıfı sadece bir metodun içinde tanımlama, çevreleyen metottaki `effectively final` değişkenleri yakalama ve anonim sınıftan farkı
+- [arrays-deepequals-pitfall](arrays-deepequals-pitfall/README.md) — nested (dizi içinde dizi) karşılaştırmada `Arrays.equals`'ın referans eşitliğine düşmesi ve `Arrays.deepEquals`'ın özyinelemeli içerik karşılaştırmasıyla doğru sonucu vermesi
