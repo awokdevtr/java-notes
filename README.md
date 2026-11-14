@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [charset-encoding-pitfalls](charset-encoding-pitfalls/README.md) — `getBytes()`/`new String(byte[])` gibi charset'siz aşırı yüklemelerin platform varsayılan karakter kümesine sessizce düşmesi ve bunun makineden makineye farklı bayt uzunluğu/`mojibake` sonuçlarına yol açması
 - [process-builder-basics](process-builder-basics/README.md) — `ProcessBuilder` ile harici bir işletim sistemi sürecini argümanları ayrı ayrı vererek kabuk ayrıştırma belirsizliği olmadan başlatma, çalışma dizini/ortam değişkeni ayarlama ve çıktı akışını yönetme
 - [classloader-basics](classloader-basics/README.md) — JVM'in sınıfları bootstrap/platform/app yükleyici hiyerarşisinde "lazy" yüklemesi ve `parent-delegation` modeliyle çekirdek sınıfların sahte (`spoofed`) versiyonlarla değiştirilmesini engellemesi
 - [hashset-vs-treeset](hashset-vs-treeset/README.md) — `HashSet`'in hash tablosu tabanlı sırasız `O(1)` erişimi ile `TreeSet`'in kırmızı-siyah ağaç tabanlı sıralı `O(log n)` erişimi arasındaki fark, doğal sıralama/`Comparator` gereksinimi ve `null` eleman davranışı
