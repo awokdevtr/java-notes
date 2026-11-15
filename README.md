@@ -141,3 +141,4 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 - [string-strip-vs-trim](string-strip-vs-trim/README.md) — `trim()`'in sadece ASCII boşluk eşiğine bakması ile `strip()`'in `Character.isWhitespace` üzerinden Unicode boşlukları (örn. no-break space) da kırpması arasındaki fark
 - [local-classes](local-classes/README.md) — bir sınıfı sadece bir metodun içinde tanımlama, çevreleyen metottaki `effectively final` değişkenleri yakalama ve anonim sınıftan farkı
 - [arrays-deepequals-pitfall](arrays-deepequals-pitfall/README.md) — nested (dizi içinde dizi) karşılaştırmada `Arrays.equals`'ın referans eşitliğine düşmesi ve `Arrays.deepEquals`'ın özyinelemeli içerik karşılaştırmasıyla doğru sonucu vermesi
+- [weakhashmap-basics](weakhashmap-basics/README.md) — `WeakHashMap`'in anahtarlarını `WeakReference` ile tutması, anahtara giden tek güçlü referans koptuğunda `GC`'nin girdiyi kendiliğinden düşürmesi ve bunun bellek sızıntısını önlemedeki rolü
