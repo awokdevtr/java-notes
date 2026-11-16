@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [collections-binarysearch](collections-binarysearch/README.md) — `Collections.binarySearch()` ile bir `List`'te ikili arama, `Arrays.binarySearch()` ile aynı negatif ekleme noktası sözleşmesi ve `RandomAccess` olup olmamasına göre indeks tabanlı/iteratör tabanlı strateji değişimi
 - [collectors-joining](collectors-joining/README.md) — `Collectors.joining` ile bir `Stream<String>`'i ayırıcı, önek ve sonek belirterek elle döngü yazmadan tek bir `String`'de birleştirme
 - [locale-case-conversion](locale-case-conversion/README.md) — `String.toUpperCase()`/`toLowerCase()`'in parametresiz çağrıldığında varsayılan `Locale`'i kullanması ve Türkçe locale'de `i`/`I` dönüşümünün beklenen ASCII sonuçtan farklı (`İ`/`ı`) çıkarak `equals` karşılaştırmalarını sessizce bozması
 - [charset-encoding-pitfalls](charset-encoding-pitfalls/README.md) — `getBytes()`/`new String(byte[])` gibi charset'siz aşırı yüklemelerin platform varsayılan karakter kümesine sessizce düşmesi ve bunun makineden makineye farklı bayt uzunluğu/`mojibake` sonuçlarına yol açması
