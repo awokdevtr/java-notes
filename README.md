@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [uncaught-exception-handler](uncaught-exception-handler/README.md) — `Thread.UncaughtExceptionHandler` ile bir thread'de yakalanmamış `RuntimeException`/`Error`'ları merkezi olarak yakalama, thread-özel/`ThreadGroup`/global varsayılan handler öncelik sırası ve bunun işçi thread'lerdeki sessiz hata kayıplarını nasıl çözdüğü
 - [collections-binarysearch](collections-binarysearch/README.md) — `Collections.binarySearch()` ile bir `List`'te ikili arama, `Arrays.binarySearch()` ile aynı negatif ekleme noktası sözleşmesi ve `RandomAccess` olup olmamasına göre indeks tabanlı/iteratör tabanlı strateji değişimi
 - [collectors-joining](collectors-joining/README.md) — `Collectors.joining` ile bir `Stream<String>`'i ayırıcı, önek ve sonek belirterek elle döngü yazmadan tek bir `String`'de birleştirme
 - [locale-case-conversion](locale-case-conversion/README.md) — `String.toUpperCase()`/`toLowerCase()`'in parametresiz çağrıldığında varsayılan `Locale`'i kullanması ve Türkçe locale'de `i`/`I` dönüşümünün beklenen ASCII sonuçtan farklı (`İ`/`ı`) çıkarak `equals` karşılaştırmalarını sessizce bozması
