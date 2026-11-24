@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [process-handle-api](process-handle-api/README.md) — `ProcessHandle` ile `ProcessBuilder` olmadan PID üzerinden mevcut JVM'i, çocuk süreçleri ve keyfi işletim sistemi süreçlerini sorgulama/sonlandırma, `destroy()`'un sadece istek olması ve gerçek bitişi `onExit()` ile takip etme
 - [uncaught-exception-handler](uncaught-exception-handler/README.md) — `Thread.UncaughtExceptionHandler` ile bir thread'de yakalanmamış `RuntimeException`/`Error`'ları merkezi olarak yakalama, thread-özel/`ThreadGroup`/global varsayılan handler öncelik sırası ve bunun işçi thread'lerdeki sessiz hata kayıplarını nasıl çözdüğü
 - [collections-binarysearch](collections-binarysearch/README.md) — `Collections.binarySearch()` ile bir `List`'te ikili arama, `Arrays.binarySearch()` ile aynı negatif ekleme noktası sözleşmesi ve `RandomAccess` olup olmamasına göre indeks tabanlı/iteratör tabanlı strateji değişimi
 - [collectors-joining](collectors-joining/README.md) — `Collectors.joining` ile bir `Stream<String>`'i ayırıcı, önek ve sonek belirterek elle döngü yazmadan tek bir `String`'de birleştirme
