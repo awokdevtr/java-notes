@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [watch-service-file-events](watch-service-file-events/README.md) — `java.nio.file.WatchService` ile bir dizindeki değişiklikleri periyodik tarama (`polling`) yapmadan işletim sisteminin kendi bildirim mekanizmasıyla olay tabanlı yakalama, `WatchKey.reset()` çağrılmazsa izlemenin sessizce durması ve `OVERFLOW` olayının bazı değişikliklerin kaybolabileceğini bildirmesi
 - [externalizable-interface](externalizable-interface/README.md) — `java.io.Externalizable` ile `writeExternal`/`readExternal` metotlarını elle yazarak serileştirme formatını reflection'a bırakmadan tam kontrol etme, zorunlu `public` no-arg constructor kısıtlaması ve `transient` anahtar kelimesinin burada anlamsız kalması
 - [atomicreference-basics](atomicreference-basics/README.md) — `AtomicReference` ile paylaşılan bir nesne referansını `synchronized` yazmadan compare-and-swap (CAS) ile atomik değiştirme, referans kimliği (`==`) karşılaştırması ve immutable nesnelerle güvenli kullanım koşulu
 - [process-handle-api](process-handle-api/README.md) — `ProcessHandle` ile `ProcessBuilder` olmadan PID üzerinden mevcut JVM'i, çocuk süreçleri ve keyfi işletim sistemi süreçlerini sorgulama/sonlandırma, `destroy()`'un sadece istek olması ve gerçek bitişi `onExit()` ile takip etme
