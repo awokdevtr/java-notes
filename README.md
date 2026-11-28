@@ -6,6 +6,7 @@ linki. Günde 2 kez otomatik olarak yeni bir konu eklenir.
 
 ## Konular
 
+- [nanotime-vs-currentmillis](nanotime-vs-currentmillis/README.md) — `System.nanoTime()`'ın sadece aynı JVM içindeki iki ölçüm arasındaki farkı anlamlı kılan monoton bir sayaç olması, `System.currentTimeMillis()`'in takvim saatine bağlı olup sistem saati değişiminden etkilenmesi ve hangisinin süre ölçümü, hangisinin zaman damgası için doğru olduğu
 - [collectors-tounmodifiable](collectors-tounmodifiable/README.md) — `Collectors.toUnmodifiableList`/`toUnmodifiableSet`/`toUnmodifiableMap` ile stream'den gerçek anlamda değişmez koleksiyon üretme, bunun `Collectors.toList()`'in belgesiz değiştirilebilirlik varsayımından farkı ve çakışan anahtarlarda `toUnmodifiableMap`'in `toMap` ile aynı `IllegalStateException` davranışı
 - [watch-service-file-events](watch-service-file-events/README.md) — `java.nio.file.WatchService` ile bir dizindeki değişiklikleri periyodik tarama (`polling`) yapmadan işletim sisteminin kendi bildirim mekanizmasıyla olay tabanlı yakalama, `WatchKey.reset()` çağrılmazsa izlemenin sessizce durması ve `OVERFLOW` olayının bazı değişikliklerin kaybolabileceğini bildirmesi
 - [externalizable-interface](externalizable-interface/README.md) — `java.io.Externalizable` ile `writeExternal`/`readExternal` metotlarını elle yazarak serileştirme formatını reflection'a bırakmadan tam kontrol etme, zorunlu `public` no-arg constructor kısıtlaması ve `transient` anahtar kelimesinin burada anlamsız kalması
